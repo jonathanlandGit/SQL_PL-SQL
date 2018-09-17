@@ -23,3 +23,11 @@ FROM ((SELECT MAX(Total) as MAXTotal,studentRecords.lineno,
 			ON (MAXTotal=Total) and (studMax.lineno=studMark.lineno) AND (studMax.term=studMark.term))
 		INNER JOIN students ON students.sid=studMark.sid;
 end; 
+/
+
+variable result refcursor;
+Begin
+  maxAverage(:result);
+end; 
+/
+print result;
