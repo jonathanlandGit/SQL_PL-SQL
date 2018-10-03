@@ -1,3 +1,3 @@
 # SQL_PL-SQL
 
-Some selected SQL and PL/SQL database projects
+Some selected SQL, PL/SQL, and NoSQL database projects
