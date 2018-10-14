@@ -2,5 +2,5 @@
 
 Some selected SQL, PL/SQL, and NoSQL database projects
 
-NOTE: Project 3 utilized the "InventorySystem" Java program mentioned above in this repo. 
+NOTE: Project 3 utilized the "InventorySystem" Java program mentioned within this repo. 
 
